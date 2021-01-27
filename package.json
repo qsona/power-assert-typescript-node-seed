@@ -4,6 +4,7 @@
   "description": "Example project of power-assert in TypeScript and Node.js",
   "main": "src/index.ts",
   "scripts": {
+    "start": "ts-node --require ./tsnodeconfig src/index.ts",
     "test": "mocha --require espower-typescript/guess \"test/**/*.ts\""
   },
   "directories": {
